@@ -1,0 +1,10 @@
+[package]
+name = "password_container"
+version = "0.0.1"
+authors = ["Antonis"]
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "main" }
+
+[addresses]
+password_container =  "0x0"
